@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1729618160 source:d:\home\projects\datastructures\data_structures\vector.cpp
+	"vector.h"
+	<stdexcept>
+
+1729618498 d:\home\projects\datastructures\data_structures\vector.h
+	<stdexcept>
+
+1729620561 source:d:\home\projects\datastructures\main.cpp
+	<iostream>
+
+1729614607 source:d:\home\projects\datastructures\data_structures\stack.cpp
+	"stack.h"
+	<stdexcept>
+
+1729614712 d:\home\projects\datastructures\data_structures\stack.h
+
+1729615318 d:\home\projects\datastructures\data_structures\queue.h
+
+1729615690 source:d:\home\projects\datastructures\data_structures\queue.cpp
+	"queue.h"
+	<stdexcept>
+
+1729616469 source:d:\home\projects\datastructures\data_structures\deque.cpp
+	"deque.h"
+	<stdexcept>
+
+1729615993 d:\home\projects\datastructures\data_structures\deque.h
+
+1729617542 source:d:\home\projects\datastructures\data_structures\set.cpp
+	"set.h"
+	<stdexcept>
+
+1729617725 d:\home\projects\datastructures\data_structures\set.h
+
+1729617623 source:d:\home\projects\datastructures\data_structures\map.cpp
+
+1729619280 d:\home\projects\datastructures\data_structures\list.h
+	<stdexcept>
+

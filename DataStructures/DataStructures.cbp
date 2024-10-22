@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="DataStructures" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/DataStructures" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/DataStructures" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="data_structures/deque.cpp" />
+		<Unit filename="data_structures/deque.h" />
+		<Unit filename="data_structures/doubly_list.h" />
+		<Unit filename="data_structures/list.h" />
+		<Unit filename="data_structures/map.cpp" />
+		<Unit filename="data_structures/map.h" />
+		<Unit filename="data_structures/priority_queue.h" />
+		<Unit filename="data_structures/queue.cpp" />
+		<Unit filename="data_structures/queue.h" />
+		<Unit filename="data_structures/set.cpp" />
+		<Unit filename="data_structures/set.h" />
+		<Unit filename="data_structures/stack.cpp" />
+		<Unit filename="data_structures/stack.h" />
+		<Unit filename="data_structures/vector.cpp" />
+		<Unit filename="data_structures/vector.h" />
+		<Unit filename="main.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
