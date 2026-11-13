@@ -1,0 +1,13 @@
+
+bin/
+obj/
+*.o
+*.exe
+DataStructures/ds
+
+# Code::Blocks
+*.depend
+*.layout
+
+# macOS
+.DS_Store
