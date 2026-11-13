@@ -1,33 +1,26 @@
 # DataStructures
-# Project Title: Data Structures Implementation in C++
 
-## Description
-This project implements various fundamental data structures in C++, including:
+Реализация базовых структур данных на C++ с нуля, на шаблонах (templates), без использования контейнеров STL.
 
-    - Singly Linked List
-    - Doubly Linked List
-    - Set
-    - Map
-    - Queue
-    - Deque
-    - Stack
-    - Vector
+| Структура | Файл |
+|---|---|
+| Односвязный список | `list.h` |
+| Двусвязный список | `doubly_list.h` |
+| Вектор (динамический массив) | `vector.h` |
+| Стек | `stack.h` |
+| Очередь | `queue.h` |
+| Дек | `deque.h` |
+| Множество | `set.h` |
+| Ассоциативный массив (map) | `map.h` |
 
-The aim of this project is to provide a clear and concise implementation of these data structures, showcasing their basic functionality and usage.
+Каждая структура лежит в отдельном заголовочном файле в `DataStructures/data_structures/`.
 
-## Features
-    - Each data structure is organized into separate header files for easy access and maintenance.
-    - Clean and modular code structure.
+## Сборка
 
-## Getting Started
+Нужен компилятор с поддержкой C++11 или новее (g++, clang++).
 
-### Prerequisites
-To compile and run this project, you need:
-
-    - A C++ compiler (e.g., g++, clang++)
-    - Code::Blocks or any other IDE/Editor of your choice
-
-### Installation
-1. Clone the repository:
-
-        git clone https://github.com/username/repo-name.git
+```bash
+cd DataStructures
+g++ -std=c++17 -Wall -Wextra main.cpp -o ds
+./ds
+```
