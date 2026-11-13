@@ -1,8 +1,0 @@
-Из корня репозитория DataStructures выполни:
-
-git rm -r --cached DataStructures/bin DataStructures/obj DataStructures/DataStructures.depend DataStructures/DataStructures.layout
-cp <это .gitignore> .gitignore        # положить рядом с README.md, в корень репозитория
-cp <этот README.md> README.md         # заменить старый
-git add .gitignore README.md
-git commit -m "Remove build artifacts, add .gitignore, fix README"
-git push
